@@ -792,7 +792,7 @@ impl pallet_sudo::Config for Runtime {
     type Call = Call;
 }
 
-/// Contract extension for Astar Local Chain-Extension
+/// Contract extension for Shibuya Chain-Extension
 pub struct ShibuyaChainExtension;
 
 impl ChainExtension<Runtime> for ShibuyaChainExtension {
